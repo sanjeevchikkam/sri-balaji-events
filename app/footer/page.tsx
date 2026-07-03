@@ -113,14 +113,14 @@ export default function FooterSection(props: any) {
           <div className="flex flex-col gap-4" id="contact-info-items">
             {/* Phone option */}
             <a
-              href="tel:+919949224331"
+              href="tel:+916309675689"
               className="flex items-center gap-3 text-sm text-[#E5E5E5]/70 hover:text-white transition-colors duration-300 group"
               id="footer-phone-link"
             >
               <span className="w-8 h-8 rounded-sm bg-white/5 flex items-center justify-center group-hover:bg-[#D4AF37]/10 group-hover:border-[#D4AF37]/30 border border-transparent transition-all duration-300">
                 <Phone className="w-3.5 h-3.5 text-[#D4AF37]" />
               </span>
-              +91 99492 24331
+              +91 63096 75689
             </a>
 
             {/* WhatsApp option */}
@@ -151,7 +151,7 @@ export default function FooterSection(props: any) {
               <span className="w-8 h-8 rounded-sm bg-white/5 flex items-center justify-center group-hover:bg-[#D4AF37]/10 group-hover:border-[#D4AF37]/30 border border-transparent transition-all duration-300">
                 <Mail className="w-3.5 h-3.5 text-[#D4AF37]" />
               </span>
-              info@mkphotography.com
+              gujjalokes@gmail.com
             </a>
           </div>
         </div>
@@ -160,12 +160,12 @@ export default function FooterSection(props: any) {
       {/* Bottom Bar: copyright & credits */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/40 font-mono" id="footer-bottom-bar">
         <p id="footer-copyright">
-          Copyright © 2026 MK Photography. All Rights Reserved.
+          Copyright © 2026 Sri Balaji Events. All Rights Reserved.
         </p>
         <p className="flex items-center gap-1.5" id="footer-creator">
           Developed with <Sparkles className="w-3 h-3 text-[#D4AF37]" /> by{' '}
           <a
-            href="https://chikklabs.com"
+            href="https://chikkamlabs.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white/60 hover:text-[#D4AF37] transition-colors duration-300"

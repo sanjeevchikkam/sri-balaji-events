@@ -8,6 +8,7 @@ import AboutUs from "./aboutus/page";
 import Footer from "./footer/page";
 import QuoteModal from "./quotemodal/page";
 import ProjectsSection from "./ourwork/page"
+import TestimonialsSection from "./testimonials/page"
 
 export default function Home() {
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
@@ -32,6 +33,7 @@ export default function Home() {
         <Hero onGetQuote={() => handleGetQuote()} />
         <Services onGetQuote={(service: string) => handleGetQuote(service)} />
         <ProjectsSection/>
+        <TestimonialsSection/>
         <AboutUs />
       </main>
 

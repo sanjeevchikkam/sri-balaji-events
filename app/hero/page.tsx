@@ -119,9 +119,9 @@ export default function HeroSection(props: any) {
               className="text-3xl md:text-5xl lg:text-6xl font-serif text-white font-bold tracking-tight leading-[1.12] mb-5 md:mb-6"
               id="hero-heading"
             >
-              Capturing Moments,<br />
+              Making Moments,<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] via-[#F5E6B3] to-[#D4AF37] drop-shadow-sm">
-                Creating Timeless Memories
+                More Memorable with our Decoration
               </span>
             </motion.h1>
 
@@ -133,7 +133,7 @@ export default function HeroSection(props: any) {
               className="text-sm md:text-base text-[#E5E5E5]/90 font-sans font-light leading-relaxed max-w-2xl mb-8"
               id="hero-subheading"
             >
-              Professional wedding photography and videography services in Hyderabad, crafted meticulously to preserve every emotion, beautiful glance, and unforgettable celebration.
+              Our Services make your Events more Memorable for lifetime.
             </motion.p>
 
             {/* Action Buttons */}
