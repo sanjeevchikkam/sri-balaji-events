@@ -6,21 +6,21 @@ import { motion } from 'motion/react';
 export default function ProjectsSection() {
   // Dual-row collection of high-resolution professional shoots
   const row1Images = [
-    '/project01.png',
-    '/project02.png',
-    '/project03.png',
-    '/service02.png',
-    '/service03.png',
-    '/project02.png',
+    '/project01.jpg',
+    '/project02.jpg',
+    '/project03.jpg',
+    '/service02.jpg',
+    '/service03.jpg',
+    '/project02.jpg',
   ];
 
   const row2Images = [
-    '/project04.png',
-    '/project06.png',
-    '/service03.png',
-    '/project02.png',
-    '/project01.png',
-    '/project03.png',
+    '/project04.jpg',
+    '/project06.jpg',
+    '/service03.jpg',
+    '/project02.jpg',
+    '/project01.jpg',
+    '/project03.jpg',
   ];
 
   // Tripling the lists to ensure a fully seamless infinite scroll across any wide viewport
