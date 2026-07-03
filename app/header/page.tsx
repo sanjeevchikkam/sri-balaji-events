@@ -1,13 +1,11 @@
 "use client";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, Sparkles } from 'lucide-react';
 
-interface HeaderSectionProps {
-  onGetQuote?: () => void;
-}
-
-export default function HeaderSection({ onGetQuote }: HeaderSectionProps) {
+export default function HeaderSection(props: any) {
+  const onGetQuote = props?.onGetQuote;
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -56,10 +54,10 @@ export default function HeaderSection({ onGetQuote }: HeaderSectionProps) {
           </div>
           <div className="flex flex-col">
             <span className="text-white font-serif text-lg md:text-xl font-bold tracking-widest leading-none group-hover:text-[#D4AF37] transition-colors duration-300" id="header-brand-name">
-              MK
+              Sri Balaji
             </span>
             <span className="text-[10px] text-[#D4AF37] font-mono tracking-[0.3em] uppercase leading-none mt-1" id="header-brand-sub">
-              Photography
+              Events
             </span>
           </div>
         </a>

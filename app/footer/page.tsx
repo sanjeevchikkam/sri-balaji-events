@@ -1,16 +1,14 @@
 "use client";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { Mail, Phone, MessageSquare, Inspect, Globe, Video, Sparkles } from 'lucide-react';
 
-interface FooterSectionProps {
-  onGetQuote?: () => void;
-}
-
-export default function FooterSection({ onGetQuote }: FooterSectionProps) {
+export default function FooterSection(props: any) {
+  const onGetQuote = props?.onGetQuote;
   const quickLinks = [
     { name: 'Home', href: '#home' },
     { name: 'Services', href: '#services' },
-    { name: 'Our Story', href: '#our-story' },
+    { name: 'Our Story', href: '#aboutus' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -81,7 +79,7 @@ export default function FooterSection({ onGetQuote }: FooterSectionProps) {
               aria-label="Youtube Channel"
               id="footer-social-youtube"
             >
-              <video className="w-4 h-4" />
+              <Video className="w-4 h-4" />
             </a>
           </div>
         </div>
