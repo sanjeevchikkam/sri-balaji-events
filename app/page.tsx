@@ -7,6 +7,7 @@ import Services from "./services/page";
 import AboutUs from "./aboutus/page";
 import Footer from "./footer/page";
 import QuoteModal from "./quotemodal/page";
+import ProjectsSection from "./ourwork/page"
 
 export default function Home() {
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
@@ -30,6 +31,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero onGetQuote={() => handleGetQuote()} />
         <Services onGetQuote={(service: string) => handleGetQuote(service)} />
+        <ProjectsSection/>
         <AboutUs />
       </main>
 
