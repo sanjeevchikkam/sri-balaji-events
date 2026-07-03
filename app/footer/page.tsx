@@ -9,14 +9,14 @@ export default function FooterSection(props: any) {
     { name: 'Home', href: '#home' },
     { name: 'Services', href: '#services' },
     { name: 'Our Story', href: '#aboutus' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Our Work', href: '#ourwork' },
+    { name: 'Testmonials', href: '#testimonials' },
   ];
 
   const whatsappMessage = encodeURIComponent(
     "Hello MK Photography,\n\nI am interested in your photography services.\n\nPlease share pricing and availability.\n\nThank you."
   );
-  const whatsappUrl = `https://wa.me/919949224331?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/916309675689?text=${whatsappMessage}`;
 
   return (
     <footer id="contact" className="bg-[#070707] border-t border-white/5 pt-16 pb-8 text-[#E5E5E5] relative z-20">

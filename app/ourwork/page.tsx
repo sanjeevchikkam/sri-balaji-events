@@ -28,7 +28,7 @@ export default function ProjectsSection() {
   const duplicatedRow2 = [...row2Images, ...row2Images, ...row2Images];
 
   return (
-    <section id="projects" className="py-24 bg-[#0B0B0B] border-t border-white/5 overflow-hidden relative">
+    <section id="ourwork" className="py-24 bg-[#0B0B0B] border-t border-white/5 overflow-hidden relative">
       {/* Absolute Decorative Glows */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-80 h-80 bg-[#D4AF37]/5 blur-[100px] rounded-full pointer-events-none" />
       <div className="absolute top-1/2 right-0 -translate-y-1/2 w-80 h-80 bg-[#D4AF37]/5 blur-[100px] rounded-full pointer-events-none" />
